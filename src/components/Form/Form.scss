@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+body {
+    font-family: Roboto, sans-serif;
+    font-size: 2vh;
+    line-height: 1.5;
+}
+.main {
+    margin: 10vh auto;
+    width: 35vw;
+    min-width: 300px;
+    padding: 20px;
+    box-sizing: border-box;
+    background: #fff;
+}
+label {
+    display: block;
+    margin-bottom: 20px;
+}
+p {
+    display: block;
+    font-size: 20px;
+}
+label input {
+    width: 100%;
+    min-width: 200px;
+    padding: 5px 5px 5px 13px;
+    border: 1px solid #555;
+    outline: none;
+    font: 500 14px Roboto, sans-serif;
+    color: #121212;
+}
+.error{
+    border: 1px solid red
+}
+.btn-w {
+    display: flex;
+    justify-content: center;
+    min-width: 80px;
+}
+.btn {
+    display: inline-block;
+    border: 0;
+    background-color: #5e3ddf;
+    color: #fff;
+    width: 25%;
+    min-width: 80px;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-size: 18px;
+    background-color: #121212;
+}
+.btn.ok:hover {
+    background-color: #19e65d;
+} 
